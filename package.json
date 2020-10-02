@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack  --config webpack.prod.js",
-    "lint": "eslint --fix 'src/components/**/*.{js,jsx}'",
+    "lint": "eslint --fix 'src/components/**/*.{js,jsx}' --fix 'src/pages/**/*.{js,jsx}'",
     "test": "jest --watchAll --config ./jest.config.js",
     "test:coverage": "jest --coverage --config ./jest.config.js"
   },
