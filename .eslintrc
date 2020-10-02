@@ -1,0 +1,33 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "airbnb/hooks", "prettier", "prettier/react"],
+  "plugins": ["react", "prettier"],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js"]
+      }
+    ],
+    "semi": ["error", "never"],
+    "react/jsx-fragments": ["error", "element"], // can use <> instead of <React.Fragment>
+    "import/no-named-as-default": 0,
+    "prettier/prettier": "error",
+    "import/no-unresolved": "off",
+    "no-unused-vars": "warn",
+    "no-console": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    },
+    "react": {
+      "version": "detect"
+    }
+  }
+}

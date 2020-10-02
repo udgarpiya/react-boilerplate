@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout Component It should have main component and child component 1`] = `
+<div
+  className="layout-component__main-component"
+>
+  <CustomHead
+    description="description"
+    title="title"
+  />
+  <Header />
+  <div
+    className="layout-component__children-container"
+  >
+    <h1>
+      Child component
+    </h1>
+  </div>
+  <Footer />
+</div>
+`;

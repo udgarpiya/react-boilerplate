@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component It should have footer component and text to be "© 2020" 1`] = `
+<div
+  className="footer-component__main-container"
+>
+  © 
+  2020
+</div>
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom Head Component It should match snapshot 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+>
+  <title>
+    title
+  </title>
+  <meta
+    content="description"
+    name="description"
+  />
+</HelmetWrapper>
+`;

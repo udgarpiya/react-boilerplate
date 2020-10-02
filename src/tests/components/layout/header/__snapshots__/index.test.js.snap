@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component It should have main component and icon 1`] = `
+<div
+  className="header-component__main-container"
+>
+  <h1>
+    Header Component
+  </h1>
+</div>
+`;
